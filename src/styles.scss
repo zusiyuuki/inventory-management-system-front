@@ -80,12 +80,7 @@
     display: table-cell;
   }
   
-  .search-criteria input[type=text] {
-    border-width: 0;
-    display: block;
-  }
-  
-  /* .search-criteria .form-field {
+  .search-criteria .form-field {
     margin: 0 auto 0;
     width: 200px;
   }
@@ -93,7 +88,7 @@
   .search-criteria .date-from .form-field,
   .search-criteria .date-to .form-field {
     width: 100px;
-  } */
+  }
   
   .search-functions-wrapper {
     display: table;
@@ -114,30 +109,9 @@
     text-align: right;
   }
   
-  .search-functions-wrapper .button {
-    display: inline-block;
-    padding: 10px 0;
-    margin-right: 5px;
-    width: 200px;
-    border-radius: 2px;
-    background-color: #78BBE6;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 1.2rem;
-  }
   
-  .search-functions-wrapper .button:hover {
-    opacity: 0.8;
-  }
   
-  .search-functions-wrapper .button.active {
-    background-color: #F99F48;
-    color: #ffffff;
-  }
-  
-  /* .search-functions-wrapper .mat-paginator-container {
+  .search-functions-wrapper .mat-paginator-container {
     justify-content: left;
     padding-left: 8px;
     min-height: 50px;
@@ -162,7 +136,7 @@
   .search-functions-wrapper .flat-button.active {
     background-color: #F99F48;
     color: #ffffff;
-  } */
+  } 
   
   .search-results-wrapper {
     width: 100%;
@@ -226,59 +200,7 @@
     cursor: pointer;
   }
   
-  .search-results-wrapper .search-results .width-no {
-    width: 5%;
-  }
   
-  .search-results-wrapper .search-results .width-product-name {
-    width: 30%;
-  }
-  
-  .search-results-wrapper .search-results .width-product-code {
-    width: 5%;
-  }
-  
-  .search-results-wrapper .search-results .width-product-genre {
-    width: 10%;
-  }
-  
-  .search-results-wrapper .search-results .width-product-image {
-    width: 100px;
-  }
-  
-  .search-results-wrapper .search-results .width-product-size {
-    width: 25%;
-  }
-  
-  .search-results-wrapper .search-results .width-product-color {
-    width: 5%;
-  }
-  
-  .search-results-wrapper .search-results .width-product-unit-price {
-    width: 5%;
-  }
-  
-  .search-results-wrapper .search-results .width-product-stock {
-    width: 5%;
-  }
-  
-  .search-results-wrapper .search-results .width-product-end {
-    width: 5%;
-  }
-  
-  .search-results-wrapper .search-results .product-name,
-  .search-results-wrapper .search-results .product-size {
-    text-align: left;
-  }
-  
-  .search-results-wrapper .search-results .product-unit-price,
-  .search-results-wrapper .search-results .product-stock {
-    text-align: right;
-  }
-  
-  .search-results-wrapper table img {
-    max-height: 30px;
-  }
   
   /* --------------------------------------------------------------------------------
    * Basic settings of the registering page.
@@ -311,13 +233,11 @@
     background-color: #ffffff;
   }
   
-  .registering-criteria-wrapper .button:hover {
-    opacity: 0.8;
-  }
   
-  /* .registering-criteria-wrapper .flat-button:hover {
+  
+  .registering-criteria-wrapper .flat-button:hover {
     opacity: 0.8;
-  } */
+  } 
   
   .registering-criteria,
   .registering-functions {
@@ -362,15 +282,7 @@
     margin: 10px auto 0;
   }
   
-  .registering-criteria-wrapper input[type=text] {
-    margin-top: 30px;
-    margin-bottom: 30px;
-    border-width: 0;
-    font-size: 1.4rem;
-    display: block;
-  }
-  
-  /* .registering-criteria-wrapper .form-field {
+  .registering-criteria-wrapper .form-field {
     width: 20rem;
     font-size: 1.4rem;
   }
@@ -381,7 +293,7 @@
   
   .registering-criteria-wrapper .validation-error {
     margin-top: 0.2rem;
-  } */
+  }
   
   .registering-criteria-wrapper p {
     margin-top: 30px;
@@ -394,35 +306,9 @@
     text-align: right;
   }
   
-  .registering-area-wrapper .button,
-  .registering-functions-wrapper .button {
-    display: inline-block;
-    padding: 10px 0;
-    width: 200px;
-    border-radius: 2px;
-    background-color: #78BBE6;
-    color: #ffffff;
-    text-decoration: none;
-    text-align: center;
-    letter-spacing: 1px;
-    font-size: 1.2rem;
-  }
   
-  .registering-functions .button {
-    padding: 10px 0;
-    margin-left: 18px;
-  }
   
-  .registering-functions .button:hover {
-    opacity: 0.8;
-  }
-  
-  .registering-functions .button.active {
-    background-color: #F99F48;
-    color: #ffffff;
-  }
-  
-  /* .registering-area-wrapper .flat-button,
+  .registering-area-wrapper .flat-button,
   .registering-functions-wrapper .flat-button {
     width: 200px;
     border-radius: 2px;
@@ -444,7 +330,7 @@
   
   .registering-functions-wrapper .flat-button:disabled {
     opacity: 0.4;
-  } */
+  } 
   
   /* --------------------------------------------------------------------------------
    * Other Material settings.
@@ -459,6 +345,9 @@
     background-color: #F99F48;
   } 
   
+  .mat-calendar-body-cell-content.mat-calendar-body-selected {
+    background: #F99F48;
+  }
   /* --------------------------------------------------------------------------------
    * Smart Phones and tablets settings.
    * -------------------------------------------------------------------------------- */
